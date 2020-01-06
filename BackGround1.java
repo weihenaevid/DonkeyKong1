@@ -1,5 +1,5 @@
 import greenfoot.*;
-
+//this is not working
 /**
  * Write a description of class BackGround1 here.
  * 
