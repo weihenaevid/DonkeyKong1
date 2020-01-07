@@ -16,25 +16,25 @@ public class BackGround1 extends World
     public BackGround1()
     {    
         super(1100, 600, 1); 
-        addObject(new DK(), 200, 150);
-        addObject(new Floor(), 125, 219);
-        addObject(new Floor(), 375, 219);
-        addObject(new Floor(), 625, 219);
-        addObject(new Floor(), 875, 219);
-        addObject(new Floor2(), 625, 500);
-        addObject(new Floor2(), 875, 500);
-        addObject(new Floor2(), 1125, 500);
-        addObject(new Floor2(), 1375, 500);
-        addObject(new Floor(), 125, 781);
-        addObject(new Floor(), 375, 781);
-        addObject(new Floor(), 625, 781);
-        addObject(new Floor(), 875, 781);
+        //top right floor
+        addObject(new DK(), 180, 69);
+        addObject(new Floor(), 125, 139);
+        addObject(new Floor(), 375, 139);
+        addObject(new Floor(), 625, 139);
+        addObject(new Floor(), 875, 139);
+        //middle left floor
+        addObject(new Floor2(), 725, 400);
+        addObject(new Floor2(), 975, 400);
+        addObject(new Floor2(), 575,400);
+        //addObject(new Floor2(), 1375,400);
+
         addObject(new Floor2(), 125, 1000);
         addObject(new Floor2(), 375, 1000);
         addObject(new Floor2(), 625, 1000);
         addObject(new Floor2(), 875, 1000);
         addObject(new Floor2(), 1125, 1000);
         addObject(new Floor2(), 1375, 1000);
+        
         addObject(new Mario(), 125, 940);
     }
 }

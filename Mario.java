@@ -17,7 +17,7 @@ public class Mario extends Actor
         }
         if(Lives == 0)
         {
-            getWorld().showText("GAME OVER", 750, 600);
+            getWorld().showText("GAME OVER", 300, 300);
             Greenfoot.stop();
         }
         if(speed > 0)
