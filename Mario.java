@@ -5,7 +5,6 @@ public class Mario extends Actor
     String Marioimage = "mariopixelCopy.png";
     long lastTime;
     int Lives = 3;
-    //Mr. P is teaching Jacques how to use git
     public void act() 
     {
         speed = speed + 1;
