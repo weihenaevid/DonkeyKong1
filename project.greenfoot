@@ -50,19 +50,11 @@ dependency8.type=UsesDependency
 dependency9.from=DK
 dependency9.to=Barrel
 dependency9.type=UsesDependency
-<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=-4
 height=744
-=======
-editor.fx.0.height=703
-editor.fx.0.width=757
-editor.fx.0.x=140
-editor.fx.0.y=74
-height=785
->>>>>>> 5b8d546befe632f30cc3050e67801dc0c4f4db4e
 package.numDependencies=14
 package.numTargets=9
 project.charset=UTF-8
@@ -151,12 +143,7 @@ target9.width=80
 target9.x=100
 target9.y=130
 version=3.0.0
-<<<<<<< HEAD
 width=1382
 world.lastInstantiated=StartScreen
-=======
-width=1300
-world.lastInstantiated=BackGround1
->>>>>>> 5b8d546befe632f30cc3050e67801dc0c4f4db4e
 xPosition=0
 yPosition=0

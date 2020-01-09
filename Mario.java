@@ -3,13 +3,15 @@ public class Mario extends Actor
 {
     int speed;
     String Marioimage = "mariopixelCopy.png";
+    //GreenfootImage lives = new GreenfootImage("heart.png");
     long lastTime;
     int Lives = 3;
     public void act() 
     {
         speed = speed + 1;
         setLocation( getX(), getY() + speed);
-        getWorld().showText("Lives : "+ Lives +"",1450, 50);
+        getWorld().showText("Lives : "+ Lives +"",1000, 20);
+        setImage("heart.png");
         if(isTouching(Barrel.class))
         {
             removeTouching(Barrel.class);
