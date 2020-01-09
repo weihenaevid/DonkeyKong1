@@ -8,7 +8,7 @@ import greenfoot.*;
  */
 public class BackGround1 extends World
 {
-
+    
     /**
      * Constructor for objects of class BackGround1.
      * 
@@ -37,5 +37,9 @@ public class BackGround1 extends World
         addObject(new Floor2(), 1375, 1000);
         
         addObject(new Mario(), 125, 940);
+        
+        GreenfootImage lives = new GreenfootImage("heart.png");
+        lives.scale(50,80);
+        getBackground().drawImage(lives, 900,200);
     }
 }
