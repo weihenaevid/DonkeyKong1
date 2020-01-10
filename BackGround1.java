@@ -39,7 +39,17 @@ public class BackGround1 extends World
         addObject(new Mario(), 125, 940);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
-        lives.scale(50,80);
-        getBackground().drawImage(lives, 900,200);
+        lives.scale(30,30);
+   
+        /*if (Lives > 2){
+            getBackground().drawImage(lives, 1050,15);
+        if (Lives > 1){
+            getBackground().drawImage(lives, 1000,15);
+        }
+        if (Lives > 0){
+            getBackground().drawImage(lives, 950,15);
+        }*/
+    
     }
+}
 }
