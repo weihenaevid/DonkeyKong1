@@ -3,7 +3,6 @@ public class Mario extends Actor
 {
     int speed;
     String Marioimage = "mariopixelCopy.png";
-    //GreenfootImage lives = new GreenfootImage("heart.png");
     long lastTime;
     int Lives = 3;
     public void act() 
